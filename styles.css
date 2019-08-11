@@ -1,0 +1,203 @@
+body, 
+html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.title-content {
+    height: 100%; 
+    text-align: center;   
+  }
+   
+/* fixed parallax */  
+.parallax {
+    /* The image used */
+  background: linear-gradient(white, transparent 90%),
+              black url('img/milky-way.jpg') no-repeat center;
+  background-size: cover;
+  height: 55%; 
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* scrolling parallax *//
+.parallax-2 {
+    /* The image used */
+  background: linear-gradient(white, transparent 20%),
+            white url('img/astronaut.jpg') no-repeat center;
+  background-size: cover;
+  height: 60%; 
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center-top;
+  background-repeat: no-repeat;
+}
+
+.parallax-3 {
+    /* The image used */
+  
+  background: linear-gradient(white, transparent 90%),
+            white url('img/moon.jpg') no-repeat center;
+  background-size: cover;
+  height: 40%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+
+.style {
+    height: 80%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.style2 {
+  height: auto;
+  color: black;
+  background-color: whitesmoke;
+  font-size: 18px;
+  padding: 10px;
+  display: in-line;
+}
+
+/* displays style-2 as parallax */
+
+.style-2 {
+  font-size: 18px;
+  width: 100%;
+
+  background: linear-gradient(white, transparent 100%),
+            rgba(0, 0, 0, 0.486) url('img/astronaut.jpg') no-repeat center;
+  background-size: cover;
+  height: 50%; 
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+.header,
+.header-2 {
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .5;
+  display: inline-block;
+}
+
+.header {
+  background-color: #111;
+  color: #fff;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  padding: 15px;
+  margin: 20% 10%;
+}
+
+.header-2 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 15px;
+  padding: 15px;
+  margin: 10%;
+  opacity: 1;
+}
+
+.article-links {
+  background: black;
+  font-weight: bold;
+  letter-spacing: 15px;
+  padding: 2%;
+  border-bottom: 1px solid grey;
+}
+
+
+h2 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 25px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+
+h3 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
+.underline {
+  border-top: 1px solid white;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+.underline2 {
+  border-top: 1px solid grey;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+.link {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.bottom-arrow:after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: 100px solid white;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  opacity: .5;
+}
+
+
+a:link {
+  color:lightgrey;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(158, 134, 158);
+}
+
+a:hover {
+  color: white;
+}
+
